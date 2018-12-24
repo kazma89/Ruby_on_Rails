@@ -1,6 +1,8 @@
 #imprimir en pantalla
+3
 puts 3
-
+3.times {puts "Hello World"}
+p "Got it"
 a = 5
 #comparacion multiple
 if a == 3
@@ -60,3 +62,23 @@ if Integer === 21
 end
 
 #case
+age = 21
+case
+  when age >= 21
+    puts "You can buy a drink"
+  when 1 == 0
+    puts "Written by a drunk programmer"
+  else
+    puts "Default condition"
+  end
+
+name = 'Fisher'
+case name
+  when /fish/i then puts "Somthing is fishy here"
+  when 'Smith' then puts "Your name is Smith"
+end
+
+#Ciclo for
+for i in 0..2
+  puts i
+end
